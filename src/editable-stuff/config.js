@@ -38,12 +38,13 @@ const mainBody = {
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
-  show: false,
-  heading: "My Resume",
+  show: true,
+  heading: "About Me",
+  resume: require("src/editable-stuff/Weevie, Trinity_Resume.pdf"),
   // imageLink: require("../editable-stuff/hashirshoaeb.png"),
   // imageSize: 375,
-  message:
-    "My resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  // message:
+  //   "My resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
